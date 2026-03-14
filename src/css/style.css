@@ -261,3 +261,15 @@ footer {
   font-size: var(--small-font);
   padding: 1em;
 }
+
+/* Site alert styles */
+
+.site-alert {
+  display: none;
+  background-color: #ffe9a8;
+  color: #333;
+  text-align: center;
+  padding: 12px;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+}
