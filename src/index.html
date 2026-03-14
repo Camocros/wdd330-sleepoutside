@@ -9,7 +9,7 @@
 
   <body>
     <header class="divider">
-      <div id="site-alert" class="site-alert"></div>
+     <div id="site-alert" class="site-alert"></div>
       <div class="logo">
         <img src="/images/noun_Tent_2517.svg" alt="tent image for logo" />
         <a href="index.html"> Sleep<span class="highlight">Outside</span></a>
@@ -115,5 +115,15 @@
       &copy;2025 ⛺ SleepOutside ⛺ WDD 330 ⛺ BYU-Idaho for BYU-Pathway
       Worldwide Online
     </footer>
+    <script>
+  const alertMessage = "🔥 Spring Sale: 20% off all camping gear!";
+
+  const alertContainer = document.querySelector("#site-alert");
+
+  if (alertContainer) {
+    alertContainer.textContent = alertMessage;
+    alertContainer.style.display = "block";
+  }
+</script>
   </body>
 </html>
